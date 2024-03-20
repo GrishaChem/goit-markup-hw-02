@@ -31,6 +31,24 @@ body {
   color: #404bbf;
 }
 
+.logo21:active {
+  color: #404bbf;
+  text-decoration: underline;
+}
+
+.logo21:hover,
+.logo21:focus {
+  color: #404bbf;
+}
+
+.logo21 {
+  font-size: 18px;
+  line-height: 1.16667;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #f4f4fd;
+}
+
 .nav-links-items {
   text-decoration: none;
 }
@@ -71,6 +89,10 @@ body {
 
 .main-section-1 {
   background: #2e2f42;
+}
+
+.order-service:hover {
+  background: #404bbf;
 }
 
 .order-service {
@@ -127,8 +149,8 @@ body {
 }
 
 .our-team-list > li > img {
-  width: 232px;
-  height: 56px;
+  width: 132px;
+  height: 220px;
 }
 
 .our-portfolio-list > li > h3 {
@@ -144,6 +166,11 @@ body {
   color: #434455;
 }
 
+.our-portfolio-list > li > img {
+  width: 360px;
+  height: 300px;
+}
+
 .footer {
   background: #2e2f42;
 }
@@ -152,13 +179,5 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #f4f4fd;
-}
-
-.logo21 {
-  font-size: 18px;
-  line-height: 1.16667;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
   color: #f4f4fd;
 }
