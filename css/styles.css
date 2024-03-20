@@ -2,6 +2,7 @@ body {
   font-family: "Roboto", static;
   color: black;
 }
+
 .logo {
   font-size: 18px;
   line-height: 1.16667;
@@ -16,18 +17,48 @@ body {
   text-transform: uppercase;
   color: #2e2f42;
 }
-.links {
+.link-logo {
+  text-decoration: none;
+}
+
+.logo2:active {
+  color: #404bbf;
+  text-decoration: underline;
+}
+
+.logo2:hover,
+.logo2:focus {
+  color: #404bbf;
+}
+
+.nav-links-items {
+  text-decoration: none;
+}
+
+.nav-links-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
 
-.address {
+.nav-links-text:hover {
+  color: #404bbf;
+}
+
+.address-items {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+}
+
+.address-link {
+  text-decoration: none;
+}
+
+.address-items:hover {
+  color: #404bbf;
 }
 
 .header1 {
@@ -45,4 +76,89 @@ body {
 .order-service {
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background: #4d5ae5;
+}
+
+.header-solutions {
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.about-solutions {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+.section-3 {
+  background: #f4f4fd;
+}
+
+.header-2 {
+  font-size: 36px;
+  line-height: 1.11111;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+}
+
+.our-team-list > li {
+  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+  background: #fff;
+}
+
+.our-team-list > li > p {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #434455;
+}
+
+.our-team-list > li > h3 {
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+}
+
+.our-team-list > li > img {
+  width: 232px;
+  height: 56px;
+}
+
+.our-portfolio-list > li > h3 {
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.our-portfolio-list > li > p {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+.footer {
+  background: #2e2f42;
+}
+
+.footer p {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
+}
+
+.logo21 {
+  font-size: 18px;
+  line-height: 1.16667;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #f4f4fd;
 }
