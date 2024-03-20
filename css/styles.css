@@ -91,10 +91,6 @@ body {
   background: #2e2f42;
 }
 
-.order-service-text {
-  color: #fff;
-}
-
 .order-service:hover {
   background: #404bbf;
 }
@@ -102,6 +98,9 @@ body {
 .order-service {
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background: #4d5ae5;
+  color: #fff;
+  width: 169px;
+  height: 56px;
 }
 
 .header-solutions {
