@@ -91,6 +91,10 @@ body {
   background: #2e2f42;
 }
 
+.order-service-text {
+  color: #fff;
+}
+
 .order-service:hover {
   background: #404bbf;
 }
