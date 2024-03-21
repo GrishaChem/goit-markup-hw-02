@@ -87,15 +87,15 @@ body {
   color: #fff;
 }
 
-.main-section-1 {
+.hero-main {
   background: #2e2f42;
 }
 
-.order-service:hover {
+.hero-btn-main:hover {
   background: #404bbf;
 }
 
-.order-service {
+.hero-btn-main {
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background: #4d5ae5;
   color: #fff;
