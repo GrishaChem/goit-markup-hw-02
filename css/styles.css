@@ -150,7 +150,7 @@ body {
   color: #2e2f42;
 }
 
-.our-team-list > li {
+.our-team-items {
   background: #fff;
 }
 
@@ -198,4 +198,12 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+}
+.header-portfolio {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
 }
