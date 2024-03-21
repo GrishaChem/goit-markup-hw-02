@@ -31,17 +31,17 @@ body {
   color: #404bbf;
 }
 
-.logo21:active {
+.footer-logo:active {
   color: #404bbf;
   text-decoration: underline;
 }
 
-.logo21:hover,
-.logo21:focus {
+.footer-logo:hover,
+.footer-logo:focus {
   color: #404bbf;
 }
 
-.logo21 {
+.footer-logo {
   font-size: 18px;
   line-height: 1.16667;
   letter-spacing: 0.03em;
@@ -176,9 +176,11 @@ body {
 
 .footer {
   background: #2e2f42;
+  width: 1440px;
+  height: 312px;
 }
 
-.footer p {
+.footer-subtitle {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
